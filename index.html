@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Government Polytechnic Ghaziabad</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles -->
+  <style>
+    /* Add custom styles here */
+    body {
+      padding-top: 56px;
+      background-color: #D5F7F6
+;
+      opacity: 1;
+    }
+    .sidebar {
+      height: 100vh; /* Full-height sidebar */
+      background-color: #A4DEDC; /* Light gray background */
+    }
+  </style>
+</head>
+<body id="content">
+  <!-- Header -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Government Polytechnic Ghaziabad</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page content -->
+  <div class="container mt-5">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-3 sidebar">
+        <h5>Sidebar</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Main content -->
+      <div class="col-md-9">
+        <h1>Welcome to Our College</h1>
+        <p>A college is an educational institution or a constituent part of one. A college may be a degree-awarding tertiary educational institution, a part of a collegiate or federal university, an institution offering vocational education, a further education institution, or a secondary school.</p>
+        <!-- Image -->
+        <img src="https://hips.hearstapps.com/hmg-prod/images/berry-college-historic-campus-at-twilight-royalty-free-image-1652127954.jpg?crop=1.00xw:0.752xh;0.00160xw,0.120xh&resize=1200:*" class="img-fluid mt-3" alt="College Image">
+      </div>
+    </div>
+  </div>
+
+ <!--  <?php
+$maxRows = 5; // Maximum rows to add
+$rowCount = 0; // Initialize row count
+
+echo '<table border="1">';
+echo '<tr><th>Row Number</th></tr>';
+
+// Loop to add rows
+for ($i = 1; $i <= 10; $i++) { // Example loop from 1 to 10, you can adjust as needed
+    if ($rowCount < $maxRows) { // Check if maximum rows limit is not reached
+        echo "<tr><td>$i</td></tr>"; // Add row with row number
+        $rowCount++; // Increment row count
+    } else {
+        break; // Exit loop if maximum rows added
+    }
+}
+
+echo '</table>';
+?>
+ -->
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-3">
+    <div class="container text-center">
+      &copy; 2024 Government Polytechnic Ghaziabad. All rights reserved.
+    </div>
+  </footer>
+
+  <script type="text/javascript">
+    document.addEventListener("DOMContentLoaded", function() {
+  var today = new Date();
+  var dayOfWeek = today.getDay(); 
+
+  if (dayOfWeek === 3) { 
+    document.getElementById("content").style.display = "block"; 
+  } else {
+    document.getElementById("content").style.display = "none"; 
+    document.write("Error 404");
+    alert("webpageshow only monday")
+  }
+});
+
+  </script>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
